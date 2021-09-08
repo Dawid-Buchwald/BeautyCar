@@ -1,17 +1,21 @@
 import {Carousel} from 'react-carousel-minimal';
 
+const tesla = require("../../images/tesla.jpg").default;
+const porsche = require("../../images/porsche.jpg").default;
+const mustang = require("../../images/mustang.jpg").default;
+
 const data = [
     {
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/GoldenGateBridge-001.jpg/1200px-GoldenGateBridge-001.jpg",
-      caption: "San Francisco"
+      image: tesla,
+      caption: "Tesla"
     },
     {
-      image: "https://cdn.britannica.com/s:800x450,c:crop/35/204435-138-2F2B745A/Time-lapse-hyper-lapse-Isle-Skye-Scotland.jpg",
-      caption: "Scotland"
+      image: porsche,
+      caption: "Porsche"
     },
     {
-      image: "https://static2.tripoto.com/media/filter/tst/img/735873/TripDocument/1537686560_1537686557954.jpg",
-      caption: "Darjeeling"
+      image: mustang,
+      caption: "Ford Mustang"
     },
     {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Palace_of_Fine_Arts_%2816794p%29.jpg/1200px-Palace_of_Fine_Arts_%2816794p%29.jpg",
@@ -53,26 +57,25 @@ const Portfolio = () => {
         <>
             <div className="App">
       <div style={{ textAlign: "center" }}>
-        <h2>React Carousel Minimal</h2>
-        <p>Easy to use, responsive and customizable carousel component for React Projects.</p>
+        <h2>Nasze prace:</h2>
         <div style={{
           padding: "0 20px"
         }}>
           <Carousel
             data={data}
-            time={2000}
+            time={4000}
             width="850px"
             height="500px"
             captionStyle={captionStyle}
             radius="10px"
-            slideNumber={true}
+            slideNumber={false}
             slideNumberStyle={slideNumberStyle}
-            captionPosition="bottom"
+            captionPosition="top"
             automatic={true}
-            dots={true}
+            dots={false}
             pauseIconColor="white"
             pauseIconSize="40px"
-            slideBackgroundColor="darkgrey"
+            slideBackgroundColor="#bbb"
             slideImageFit="cover"
             thumbnails={true}
             thumbnailWidth="100px"

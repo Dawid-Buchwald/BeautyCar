@@ -5,15 +5,15 @@ const Navigation = () => {
     return (
         <>
             <div className="container navigation">
-                <a href="#">
-                    <span>Beauty</span><span>Car</span>
+                <a className="logo" href="#">
+                    <span className="logoSpanFirst">Beauty</span><span className="logoSpanSecond">Car</span>
                 </a>
-                <ul className="navUl">
-                    <li><a href="#">Strona główna</a></li>
-                    <li>O nas</li>
-                    <li>Usługi</li>
-                    <li>Portfolio</li>
-                    <li>Kontakt</li>
+                <ul>
+                    <li className="navLi"><a href="#">Strona główna</a></li>
+                    <li className="navLi"><a href="#">O nas</a></li>
+                    <li className="navLi"><a href="#">Usługi</a></li>
+                    <li className="navLi"><a href="#">Portfolio</a></li>
+                    <li className="navLi"><a href="#">Kontakt</a></li>
                 </ul>
             </div>
         </>

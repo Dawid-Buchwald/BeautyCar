@@ -4,10 +4,11 @@ import React from 'react';
 const Footer = () => {
     return (
         <>
+            <p>Własność:</p>
             <a href="#">
-                    <span>Beauty</span><span>Car</span>
+                <span>Beauty</span><span>Car</span>
             </a>
-            <p>Własność BeautyCar</p>
+            
         </>
     );
 };

@@ -1,9 +1,43 @@
 .navigation {
     display: flex;
     justify-content: space-between;
+    background-color: red 0.4;
+    border: 0 0 2px 0 solid #ccc, 0.2;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
 }
 
-.navUL {
-    text-decoration: none;
-    
+.navLi {
+    display: inline-block;
+    margin-right: 20px;
+        
 }
+
+
+.navLi a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.2em;
+}
+
+ .logo {
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.logoSpanFirst {
+    letter-spacing: 3px;
+    color:lawngreen;
+}
+
+.logoSpanSecond {
+    letter-spacing: 0.1;
+    color: white;
+}
+
+
+

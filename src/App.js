@@ -1,5 +1,4 @@
 import {BrowserRouter, Switch, Route} from "react-router-dom";
-import Home from "./components/Home"
 import Footer from "./components/footer/Footer"
 import Navigation from "./components/navigation/Navigation";
 import Carousel from "./components/carousel/Carousel"
@@ -12,11 +11,6 @@ import Contact from "./components/contact/Contact"
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Switch>
-          <Route exact path="/" component={Home} />
-        </Switch>
-      </BrowserRouter>
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Navigation} />

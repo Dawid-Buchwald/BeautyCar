@@ -1,0 +1,20 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 35px;
+}
+
+.aboutImages {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+}
+
+article {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
