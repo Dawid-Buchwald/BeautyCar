@@ -1,12 +1,15 @@
 import React from 'react';
 
+const icon = require("../../images/icon.svg").default;
 
 const Navigation = () => {
     return (
         <>
             <div className="container navigation">
                 <a className="logo" href="#">
-                    <span className="logoSpanFirst">Beauty</span><span className="logoSpanSecond">Car</span>
+                    <span className="logoSpanFirst">Beauty</span>
+                    <img className="icon" src={icon} alt="ikona samochodu"/>
+                    <span className="logoSpanSecond">Car</span>
                 </a>
                 <ul>
                     <li className="navLi"><a href="#">Strona główna</a></li>

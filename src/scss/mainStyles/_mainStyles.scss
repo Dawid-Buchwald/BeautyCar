@@ -4,9 +4,12 @@
     padding: 0;
     font-family: 'Lato', sans-serif;
   }
+
+  body {
+    background-color: #595959;
+  }
   
 .container {
     max-width: 1088px;
     max-height: 100vh;
-    background-color: #aaa;
 }

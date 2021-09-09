@@ -6,15 +6,22 @@
 }
 
 .aboutImages {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    border-radius: 15%;
+    height: 170px;
     margin: 15px;
 }
 
 article {
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
     text-align: center;
+    background-color: #aaa;
+    margin-right: 10px;
+    
 }
 
+article p {
+    display: block;
+    width: 230px;
+    font-size: 1rem;
+}

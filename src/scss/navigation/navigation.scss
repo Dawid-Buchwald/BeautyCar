@@ -1,7 +1,6 @@
 .navigation {
     display: flex;
     justify-content: space-between;
-    background-color: red 0.4;
     border: 0 0 2px 0 solid #ccc, 0.2;
     top: 0;
     left: 0;
@@ -14,6 +13,7 @@
 .navLi {
     display: inline-block;
     margin-right: 20px;
+    
         
 }
 
@@ -22,21 +22,37 @@
     text-decoration: none;
     color: whitesmoke;
     font-size: 1.2em;
-}
+    text-transform: uppercase;
+    transition: 0.4s;
+    font-weight: 700;
+    line-height: 20px;
+    &:hover {
+        color: black;
+    }
+}       
 
  .logo {
     text-decoration: none;
     font-size: 2em;
+    font-weight: 900;
 }
 
 .logoSpanFirst {
     letter-spacing: 3px;
-    color:lawngreen;
+    color:#30C7B9;
+    font-family: 'Allison', cursive;
+    font-weight: bold;
+    font-size: 2.1em;
 }
 
 .logoSpanSecond {
     letter-spacing: 0.1;
     color: white;
+}
+
+.icon {
+    max-width: 30px;
+    max-height: 30px;
 }
 
 
