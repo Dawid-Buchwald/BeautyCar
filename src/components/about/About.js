@@ -9,7 +9,9 @@ const man3 = require("../../images/man3.jpg").default;
 const About = () => {
     return (
         <>
+            <h2>ludziki jakieś co u nas pracują</h2> 
             <div className="container about">
+               
                 <article>
                     <img className="aboutImages" src={man1}></img>
                     <h3>Joe</h3>

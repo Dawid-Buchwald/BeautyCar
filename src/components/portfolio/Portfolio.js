@@ -1,13 +1,19 @@
 import {Carousel} from 'react-carousel-minimal';
 
-const tesla = require("../../images/tesla.jpg").default;
+const corvette = require("../../images/corvette.jpg").default;
 const porsche = require("../../images/porsche.jpg").default;
 const mustang = require("../../images/mustang.jpg").default;
+const audi = require("../../images/audi.jpg").default;
+const BMW = require("../../images/BMW.jpg").default;
+const nissan = require("../../images/nissan.jpg").default;
+const dodge = require("../../images/dodge.jpg").default;
+const ranger = require("../../images/ranger.jpg").default;
+
 
 const data = [
     {
-      image: tesla,
-      caption: "Tesla"
+      image: corvette,
+      caption: "Corvette"
     },
     {
       image: porsche,
@@ -18,38 +24,31 @@ const data = [
       caption: "Ford Mustang"
     },
     {
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Palace_of_Fine_Arts_%2816794p%29.jpg/1200px-Palace_of_Fine_Arts_%2816794p%29.jpg",
-      caption: "San Francisco"
+      image: audi,
+      caption: "Audi"
     },
     {
-      image: "https://i.natgeofe.com/n/f7732389-a045-402c-bf39-cb4eda39e786/scotland_travel_4x3.jpg",
-      caption: "Scotland"
+      image: BMW,
+      caption: "BMW"
     },
     {
-      image: "https://www.tusktravel.com/blog/wp-content/uploads/2020/07/Best-Time-to-Visit-Darjeeling-for-Honeymoon.jpg",
-      caption: "Darjeeling"
+      image: nissan,
+      caption: "Nissan"
     },
     {
-      image: "https://www.omm.com/~/media/images/site/locations/san_francisco_780x520px.ashx",
-      caption: "San Francisco"
+      image: dodge,
+      caption: "Dodge"
     },
     {
-      image: "https://images.ctfassets.net/bth3mlrehms2/6Ypj2Qd3m3jQk6ygmpsNAM/61d2f8cb9f939beed918971b9bc59bcd/Scotland.jpg?w=750&h=422&fl=progressive&q=50&fm=jpg",
-      caption: "Scotland"
-    },
-    {
-      image: "https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/02/summer-7.jpg",
-      caption: "Darjeeling"
+      image: ranger,
+      caption: "Ford Ranger"
     }
   ];
 
   const captionStyle = {
     fontSize: '2em',
     fontWeight: 'bold',
-  }
-  const slideNumberStyle = {
-    fontSize: '20px',
-    fontWeight: 'bold',
+    color: "white"
   }
 
 const Portfolio = () => {
@@ -68,8 +67,6 @@ const Portfolio = () => {
             height="500px"
             captionStyle={captionStyle}
             radius="10px"
-            slideNumber={false}
-            slideNumberStyle={slideNumberStyle}
             captionPosition="top"
             automatic={true}
             dots={false}

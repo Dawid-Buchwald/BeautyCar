@@ -7,12 +7,14 @@ const Contact = () => {
   
     return (
         <>
-            <p>Masz pytania? Chętnie na nie odpowiemy!</p>
-            <form>
-                <input type="email" value={name} onChange={e => setName(e.target.value)}/>
-                <textarea type="number" value={age} onChange={e => setAge(e.target.value)}/>
-                <button type="submit">WySlij</button>
-            </form>
+            <div className="container form">
+                <h4>Masz pytania? Chętnie na nie odpowiemy!</h4>
+                <form>
+                    <input type="email" value={name} onChange={e => setName(e.target.value)}/>
+                    <textarea type="number" value={age} onChange={e => setAge(e.target.value)}/>
+                    <button type="submit">WySlij</button>
+                </form>
+            </div>
         </>
       
     );
