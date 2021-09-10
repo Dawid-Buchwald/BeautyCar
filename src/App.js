@@ -1,16 +1,22 @@
 import {BrowserRouter, Switch, Route} from "react-router-dom";
-import Footer from "./components/footer/Footer"
+import Footer from "./components/footer/Footer";
 import Navigation from "./components/navigation/Navigation";
-import Header from "./components/header/Header"
-import About from "./components/about/About"
-import ServiceOffer from "./components/serviceOffer/ServiceOffer"
-import Portfolio from "./components/portfolio/Portfolio"
-import Contact from "./components/contact/Contact"
+import Header from "./components/header/Header";
+import About from "./components/about/About";
+import ServiceOffer from "./components/serviceOffer/ServiceOffer";
+import Portfolio from "./components/portfolio/Portfolio";
+import Contact from "./components/contact/Contact";
+import Newsletter from "./components/newsletter/Newsletter";
 
 
 function App() {
   return (
     <>
+    <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Newsletter} />
+        </Switch>
+      </BrowserRouter>
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Navigation} />
