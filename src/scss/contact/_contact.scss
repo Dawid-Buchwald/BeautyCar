@@ -1,8 +1,18 @@
-.form {
+.contact{
+    padding: 30px;
+    background-color: blanchedalmond;
     margin-top: 200px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    line-height: 30px;
+}
+.contactInfo {
+    margin-bottom: 10px;
+}
+
+.contactIcon {
+    width: 15px;
+    height: 15px;
 }
 

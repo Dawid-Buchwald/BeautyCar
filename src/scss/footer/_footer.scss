@@ -1,5 +1,11 @@
 .footer {
     height: 50px;
+    max-width: 100%;
     background-color: green;
-    display: flex;
+    text-align: center;
+}
+
+.footerIcon {
+    width: 20px;
+    height: 20px;
 }

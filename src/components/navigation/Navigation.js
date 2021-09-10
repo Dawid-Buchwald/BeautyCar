@@ -8,7 +8,7 @@ const Navigation = () => {
             <div className="container navigation">
                 <a className="logo" href="#">
                     <span className="logoSpanFirst">Beauty</span>
-                    <img className="icon" src={icon} alt="ikona samochodu"/>
+                    <img className="icon" src={icon} alt="ikona gąbki"/>
                     <span className="logoSpanSecond">Car</span>
                 </a>
                 <ul>
