@@ -1,20 +1,34 @@
 .service {
-    
-    padding: 40px;
-    background-color: rosybrown;
+    padding: 30px 40px;
+    background-color: white;
     margin-bottom: 20px;
     border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+
+    }
+.offer {
+    padding: 40px;
+    max-width: 100%;
+    background-color: #232323;
+    margin-bottom: 100px;
+}
+.offerHeader {
+    color: white;
+}
+
+.offerList {
+    width: 700px;
+    font-size: 1.15rem;
 }
 
 .gold {
-    border: 3px solid gold;
-    margin-top: 30px;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+ 
 }
 
-.silver {
-    border: 3px solid silver;
-}
-
-.brown {
-    border: 3px solid rgb(100, 35, 35);
-}

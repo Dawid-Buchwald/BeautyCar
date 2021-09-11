@@ -1,7 +1,10 @@
 .contact{
+    width: 100%;
     padding: 30px;
-    background-color: blanchedalmond;
-    margin-top: 200px;
+    background-color: white;
+    box-shadow: 1px 1px 10px #1104d1;
+    margin-top:200px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
     font-size: 1.25rem;
@@ -9,6 +12,14 @@
 }
 .contactInfo {
     margin-bottom: 10px;
+}
+
+h4 {
+    padding-top: 20px;
+}
+
+.contactParagraph {
+    margin-bottom: 100px;
 }
 
 .contactIcon {

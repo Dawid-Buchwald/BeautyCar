@@ -1,11 +1,18 @@
 .footer {
-    height: 50px;
+    height: 100px;
     max-width: 100%;
-    background-color: green;
+    background-color: #232323;
     text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
 }
 
 .footerIcon {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
 }

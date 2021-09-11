@@ -21,7 +21,7 @@
 
 .newsletterInput {
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
     border: none;
     width: 80%;
     color: #cf1d22;
@@ -38,7 +38,7 @@
     transition: 0.5s;
     background-size: 200% auto;
     color: #fff;
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 10px 10px 0;
     border: none;
     cursor: pointer;
     &:hover {
