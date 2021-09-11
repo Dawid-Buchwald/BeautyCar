@@ -12,11 +12,6 @@ import Newsletter from "./components/newsletter/Newsletter";
 function App() {
   return (
     <>
-    <BrowserRouter>
-        <Switch>
-          <Route exact path="/" component={Newsletter} />
-        </Switch>
-      </BrowserRouter>
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Navigation} />
@@ -40,6 +35,11 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Portfolio} />
+        </Switch>
+      </BrowserRouter>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Newsletter} />
         </Switch>
       </BrowserRouter>
       <BrowserRouter>

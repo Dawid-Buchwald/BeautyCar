@@ -56,7 +56,7 @@ const Portfolio = () => {
         <>
             <div className="App">
       <div style={{ textAlign: "center" }}>
-        <h2 id="portfolio">Nasze prace:</h2>
+        <h2>Nasze prace:</h2>
         <div style={{
           padding: "0 20px"
         }}>

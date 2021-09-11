@@ -34,7 +34,7 @@ function Newsletter() {
             <container className="newsletterContainer">
                 <form className="form" onSubmit={submitHandler}>
                     <h2 className="newsletterHeader">Dołącz do naszego Newslletera</h2>
-                    <input className="newsletterInput" type="email" onChange={inputHandler} value={input} />
+                    <input placeholder="example@example.com" className="newsletterInput" type="email" onChange={inputHandler} value={input} />
                     <button className="newsletterButton" type="submit">Zapisz</button>
                 </form>
                 {message && <alert className="newsletterMessage">{message}</alert>}

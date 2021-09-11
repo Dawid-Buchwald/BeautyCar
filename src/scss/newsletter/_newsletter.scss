@@ -1,10 +1,11 @@
 .newsletter {
-    height: 100vh;
+    margin-top: 200px;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
-   background-color: rgba(255, 255, 255, 0.1);
-    overflow: hidden;
+   background-color: #232323;
+    // overflow: hidden;
 }
 
 .newsletterContainer {
@@ -12,7 +13,7 @@
 }
 
 .newsletterHeader {
-    color: #fff;
+    color:#fff;
     padding: 1rem;
     text-align: center;
     font-family: sans-serif;
@@ -24,12 +25,12 @@
     border-radius: 10px 0 0 10px;
     border: none;
     width: 80%;
-    color: #cf1d22;
+    color:black;
     outline: none;
 }
 
 .newsletterButton {
-    background-image: linear-gradient(to right, #eb3349 0%, #f45c43 51%, #eb3349 100%);
+    background-color: #ddd;
     margin-top: 20px;
     width: 20%;
     padding: 10px;
@@ -37,7 +38,7 @@
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: #fff;
+    color: black;
     border-radius: 0 10px 10px 0;
     border: none;
     cursor: pointer;
@@ -54,7 +55,7 @@
     text-align: center;
     font-size: 1.2rem;
     font-family: sans-serif;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: none;
     border-radius: 10px;
     background: rgba(0, 255, 0, 0.1);
     backdrop-filter: blur(10px);
@@ -65,9 +66,8 @@
     padding: 3rem;
     min-width: 500px;
     border-radius: 5px;
-    box-shadow: 0 0 30px #333;
     background-color: rgba(255, 255, 255, 0.1);
-    border: solid 1px rgba(255, 255, 255, 0.2);
+    border: none;
     background-clip: padding-box;
     backdrop-filter: blur(10px);
 }
